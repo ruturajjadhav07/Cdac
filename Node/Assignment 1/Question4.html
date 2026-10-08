@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JavaScript DOM Example</title>
+  </head>
+  <body>
+    <h1 id="heading">Good Morning!</h1>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+      function changeText() {
+        let element = document.getElementById("heading");
+
+        if (element.innerHTML == "Good Morning!")
+          element.innerHTML = "Hello from JavaScript";
+        else element.innerHTML = "Good Morning!";
+      }
+    </script>
+  </body>
+</html>
