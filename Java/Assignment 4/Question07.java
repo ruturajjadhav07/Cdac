@@ -1,4 +1,4 @@
-// 7. Create a child thread to print Right Triangle star pattern using Lambda expression
+// 7. Create a child thread to print i Triangle star pattern using Lambda expression
 
 import java.util.Scanner;
 
